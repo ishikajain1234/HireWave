@@ -21,7 +21,7 @@ import MDEditor from "@uiw/react-md-editor";
 import { getCompanies } from "@/api/apiCompanies";
 import useFetch from "@/hooks/use-fetch";
 import { BarLoader } from "react-spinners";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,Navigate} from "react-router-dom";
 import { addNewJob } from "@/api/apiJobs";
 import AddCompanyDrawer from "@/components/add-company-drawer";
 
